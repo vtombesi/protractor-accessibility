@@ -1,0 +1,27 @@
+{
+  "name": "protractor-accessibility",
+  "version": "1.0.0",
+  "description": "A suite for the testing framework known as Protractor, covering accessibility tests A, AA and AAA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtombesi/protractor-accessibility.git"
+  },
+  "keywords": [
+    "protractor",
+    "testing",
+    "accessibility",
+    "A",
+    "AA",
+    "AAA"
+  ],
+  "author": "Valentino Tombesi <valentino.tombesi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtombesi/protractor-accessibility/issues"
+  },
+  "homepage": "https://github.com/vtombesi/protractor-accessibility#readme"
+}

@@ -4,7 +4,8 @@
   "description": "A suite for the testing framework known as Protractor, covering accessibility tests A, AA and AAA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "webdriver": "webdriver-manager start",
+    "test": "protractor ./protractor-config.js",
     "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "repository": {
@@ -30,6 +31,8 @@
     "babel-loader": "^6.4.1",
     "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.24.0",
+    "jasmine-reporters": "^2.2.1",
+    "protractor-html-reporter": "^1.3.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
   }
